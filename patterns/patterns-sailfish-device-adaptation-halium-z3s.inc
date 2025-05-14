@@ -1,13 +1,13 @@
-%package -n patterns-sailfish-device-adaptation-halium-tomcat
-Summary: Sailfish HW Adaptation halium-tomcat
+%package -n patterns-sailfish-device-adaptation-halium-z3s
+Summary: Sailfish HW Adaptation halium-z3s
 
-Requires: droid-config-halium-tomcat-sailfish
-Requires: droid-config-halium-tomcat-pulseaudio-settings
-Requires: droid-config-halium-tomcat-policy-settings
-Requires: droid-config-halium-tomcat-preinit-plugin
-Requires: droid-config-halium-tomcat-flashing
-Requires: droid-config-halium-tomcat-bluez5
-Requires: droid-hal-version-halium-tomcat
+Requires: droid-config-halium-z3s-sailfish
+Requires: droid-config-halium-z3s-pulseaudio-settings
+Requires: droid-config-halium-z3s-policy-settings
+Requires: droid-config-halium-z3s-preinit-plugin
+Requires: droid-config-halium-z3s-flashing
+Requires: droid-config-halium-z3s-bluez5
+Requires: droid-hal-version-halium-z3s
 
 Requires: qt5-plugin-generic-evdev
 
@@ -86,7 +86,7 @@ Requires: geoclue-provider-hybris
 # For mounting SD card automatically
 Requires: sd-utils
 
-%description -n patterns-sailfish-device-adaptation-halium-tomcat
-Pattern with packages for halium-tomcat HW Adaptation
+%description -n patterns-sailfish-device-adaptation-halium-z3s
+Pattern with packages for halium-z3s HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-halium-tomcat
+%files -n patterns-sailfish-device-adaptation-halium-z3s

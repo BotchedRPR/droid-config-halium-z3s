@@ -1,8 +1,8 @@
-%package -n patterns-sailfish-device-configuration-halium-tomcat
-Summary: Sailfish HW Adaptation halium-tomcat
+%package -n patterns-sailfish-device-configuration-halium-z3s
+Summary: Sailfish HW Adaptation halium-z3s
 
-Requires: patterns-sailfish-device-configuration-common-halium-tomcat
-Requires: patterns-sailfish-device-adaptation-halium-tomcat
+Requires: patterns-sailfish-device-configuration-common-halium-z3s
+Requires: patterns-sailfish-device-adaptation-halium-z3s
 
 Requires: patterns-sailfish-cellular-apps
 Requires: patterns-sailfish-applications
@@ -72,7 +72,7 @@ Recommends: zypper
 Recommends: strace
 Recommends: jolla-rnd-device
 
-%description -n patterns-sailfish-device-configuration-halium-tomcat
-Pattern with packages for halium-tomcat configurations
+%description -n patterns-sailfish-device-configuration-halium-z3s
+Pattern with packages for halium-z3s configurations
 
-%files -n patterns-sailfish-device-configuration-halium-tomcat
+%files -n patterns-sailfish-device-configuration-halium-z3s
